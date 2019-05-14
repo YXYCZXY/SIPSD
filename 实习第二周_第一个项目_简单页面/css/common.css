@@ -1,0 +1,169 @@
+html, body {
+  margin:0px;
+  width:100%;
+  min-width:1300px;
+  max-width:100%;
+  height:100%
+  
+}
+
+#div_bg{
+    position: relative;
+    left: 185px;
+    top: 0px;
+    height: 657px;
+    width: 1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Microsoft YaHei';
+    font-size:90%;
+}
+
+.col1,.col4,.col6,.col7,.col8,.col9,.col10{
+    background-image:url(../imgs/images/icon.png) !important ;
+    width: 125px; 
+    height: 125px;
+    position: absolute;
+} 
+
+.col1{
+    left: 0;
+    top: 0;
+    background-color: #d6000d;
+   background-position: 0px 0px;
+}
+.col2{
+    width: 375px;
+    height: 125px;
+    position: absolute;
+    left: 125px;
+    top: 0;
+    background-image: url(../imgs/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.col3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 625px;
+    top: 0px;
+    background-image: url(../imgs/images/资产可视化.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.col4{
+    left: 0px;
+    top: 250px;
+    background:#2a2a2a;
+    background-position: -125px 0px;
+}
+
+.col5{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 125px;
+    top: 125px;
+    background-image: url(../imgs/images/科传.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.col6{
+    left: 375px;
+    top: 250px;
+    background: #2a2a2a;
+    background-position: -375px 0px;
+} 
+
+ .col7{
+    left: 500px;
+    top: 125px;
+    background:#d6000d;
+    background-position: 0px -125px;
+} 
+
+ .col8{
+    left: 250px;;
+    top: 375px;
+    background:#2a2a2a;
+    background-position: -250px 0px;
+}
+
+.col9{
+    left: 500px;;
+    top: 375px;
+    background:#2a2a2a;
+    background-position: -125px -125px;
+}
+
+.col10{
+    left: 625px;;
+    top: 500px;
+    background:#2a2a2a;
+    background-position: -250px -125px;
+}
+
+.col11{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 750px;;
+    top: 250px;
+    background-image: url(../imgs/images/数据洞察.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.round {
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+}
+
+.itemSelected {
+    color: white;
+    background-color: #E03C47 !important;
+    border-color:#E03C47 !important ;
+}
+
+.hand_cursor {
+    cursor: Pointer;
+}
+
+.btn-w3r {
+    width: 26px;
+    height: 26px;
+    padding: 0px;
+    border: 0px;
+    margin: 3px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50% !important;
+    color: white;
+    background: black; /* Old browsers */
+    /*background: -moz-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /!* FF3.6+ *!/*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cb60b3), color-stop(50%, #ad1283), color-stop(100%, #de47ac));*/
+    /*background : -webkit-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /!* Chrome10+,Safari5.1+ *!/*/
+    /*background: -o-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /!* Opera 11.10+ *!/*/
+    /*background: -ms-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /!* IE10+ *!/*/
+    /*background: linear-gradient(to bottom, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /!* W3C *!/*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cb60b3', endColorstr='#de47ac', GradientType=0); /!* IE6-9 *!/*/
+}
+
+.btn-w3r:hover {
+    background: red;
+}
