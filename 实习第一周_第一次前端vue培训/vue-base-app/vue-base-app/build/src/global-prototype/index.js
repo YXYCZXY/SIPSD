@@ -1,0 +1,4 @@
+export {
+  VueCommunication
+}
+from './communication';
