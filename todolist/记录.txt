@@ -1,0 +1,13 @@
+子组件实现删除要
+父组件把渲染子组件数据给删除
+
+实现 点击子组件 ---》通知 父组件删除
+
+进行打包
+到桌面
+用npm install --global vue-cli
+vue init webpack my-project(项目名)
+--no yes -no no
+npm run dev
+
+main.js需要改写参数
